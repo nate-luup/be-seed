@@ -42,3 +42,8 @@ $ npm start
 - sendemail
 - sendmessage
 - capcha
+
+# API
+| Name | URL | Desc |
+| ---- | ---- | ---- |
+| captcha | http://127.0.0.1:7001/captcha | generate captcha |

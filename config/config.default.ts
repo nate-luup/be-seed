@@ -19,5 +19,20 @@ export default (appInfo: EggAppInfo) => {
   return {
     ...config,
     ...bizConfig,
+    security: {
+      csrf: {
+        enable: false,
+      },
+    },
+    jwt: {
+      secret: '@nate!123Abc!:',
+    },
+    mongoose: {
+      client: {
+        url: 'mongodb://127.0.0.1:27017/be-seed',
+        options: {},
+      },
+    },
+    hashSalt: ':nate!@123',
   }
 }

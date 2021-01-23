@@ -6,6 +6,18 @@ const plugin: EggPlugin = {
   //   enable: true,
   //   package: 'egg-view-nunjucks',
   // },
+  routerGroup: {
+    enable: true,
+    package: 'egg-router-group',
+  },
+  mongoose: {
+    enable: true,
+    package: 'egg-mongoose',
+  },
+  validate: {
+    enable: true,
+    package: 'egg-validate',
+  },
 }
 
 export default plugin
